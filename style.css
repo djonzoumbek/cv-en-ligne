@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css?family=Audiowide|family=Josefin+Sans: 500|family=Rambla&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    list-style-type: none;
+}
+
+html{
+    scroll-behavior: smooth ;
+}
+body {
+    color: #283655 !important;
+    background-color: #f7faff !important;
+    font-family: 'Audiowide', sans-serif;
+}
+h2, h3 {
+    font-family: 'Audiowide', sans-serif;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    text-shadow: -1px -1px -1px #283655;
+}
+
+/* ===============================Header==================================*/
+.navbar{
+    position: absolute;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100% ;
+    box-sizing: border-box;
+}
+
+.navbar .nom{
+    font-size: 2em;
+}
+
+
+.navbar .nav-links ul{
+    display: flex;
+ 
+}
+
+.navbar .nav-links ul li{
+    margin: 0 25px;
+}
+
+header {
+    text-align: center;
+    height: 300vh;
+    background: url(media/header.jpg) no-repeat fixed 50% 50%;
+    background-size: cover;
+ 
+}
+h1 {
+    padding: 90px 0 10px 0;
+    font-family: 'Josephine Sans', sans-serif;
+    font-size: 4.2em;
+    text-transform: uppercase;
+
+}
+.line {
+    height: 1px;
+    background-color: #b3aca7;
+    width: 25%;
+    margin: 0 auto;
+}
+h2 {
+    padding: 20px 0 50px 0;
+    font-size: 3em;
+    text-transform: uppercase;
+
+}
+.presentation {
+    height: 240px;
+    margin-top: 20px;
+
+}
+.info {
+    border: 1px solid #b3aca7;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+.photo {
+    border: 1px solid #b3aca7;
+    position: relative;
+
+}
+.photo img{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    height: auto;
+    max-width: 80%;
+    border-radius: 3px;
+    box-shadow: 0 0 4px #111;
+}
+header .button {
+    margin-top: 45%;
+}
+header .button a{
+    padding: 20px 80px;
+    border: 1px solid #b3aca7;
+    width: 300px;
+}
+header .button  :hover a{
+    background: #b3aca7;
+    color: #e2dedb;
+    transition: all 0.3 ease-in-out;
+    text-decoration: none;
+}
+/*----------------Langages ----------------*/
+.langage{ 
+    background-color: #f7faff;
+    height: 40%;
+    width: 50%;
+    padding: 80px 80px 80px 50px;
+    margin: 20px 0 0 6%;
+    max-width: 640px;
+    border: 1px solid #b3aca7;
+}
